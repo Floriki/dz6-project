@@ -1,0 +1,150 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    text-decoration: underline double 4px;
+    text-align: center;
+}
+
+.block {
+    max-width: 900px;
+    min-width: 50px;
+    position: relative;
+    padding: 50px;
+    border-bottom: dashed;
+    border-left: dashed;
+    border-top: solid 3px ;
+    border-right: solid 3px;
+    font-size: small;
+}
+
+p.description1:first-letter {
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(2, 52, 65, 0.755);
+}
+
+p.description2:first-letter {
+    font-weight: bold;
+    font-size: 32px;
+    color:rgba(38, 40, 41, 0.755);
+}
+
+p.description3:first-letter {
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(27, 92, 32, 0.755);
+}
+
+.charlotte {
+    margin: 150px 100px;
+    background-color:rgb(211, 232, 238);
+    border-color: rgba(46, 158, 192, 0.755);
+    border-top: solid rgba(46, 158, 192, 0.755);
+    border-right: solid rgba(46, 158, 192, 0.755);
+}
+
+.tiramisu {
+    margin: 150px 100px;
+    background-color:rgb(232, 237, 240);
+    border-color: rgba(38, 40, 41, 0.755);
+    border-top: solid rgba(38, 40, 41, 0.755);
+    border-right: solid rgba(38, 40, 41, 0.755);
+}
+
+.cookies {
+    margin: 0px 100px;
+    background-color:rgb(162, 197, 145);
+    border-color: rgba(27, 92, 32, 0.755);
+    border-top: solid rgba(27, 92, 32, 0.755);
+    border-right: solid rgba(27, 92, 32, 0.755);
+}
+
+.charlotte-picture {
+    border: 5px solid rgba(2, 52, 65, 0.755);
+    position: absolute;
+    left: 850px;
+    top: -120px;
+    width: 300px;
+    height: 200px;
+}
+
+.tiramisu-picture {
+    border: 5px solid rgba(38, 40, 41, 0.755);
+    position: absolute;
+    left: 850px;
+    top: -120px;
+    width: 300px;
+    height: 200px;
+}
+
+.cookies-picture {
+    border: 5px solid rgba(27, 92, 32, 0.755);
+    position: absolute;
+    left: 850px;
+    top: -120px;
+    width: 300px;
+    height: 200px;
+}
+
+h2 {
+    text-decoration:underline 3px;
+    font-size:x-large;
+}
+
+.charlotte_title {
+    color: rgba(2, 52, 65, 0.755);
+}
+
+.tiramisu_title {
+    color: rgba(38, 40, 41, 0.755);
+}
+
+.cookies_title {
+    color: rgba(27, 92, 32, 0.755);
+}
+
+h3 {
+    font-size: large;
+}
+
+.charlotte_title-blue {
+    color: rgba(3, 41, 53, 0.755);
+}
+
+.tiramisu_title-grey {
+    color: rgba(38, 40, 41, 0.755);
+}
+
+.cookies_title-green {
+    color: rgba(27, 92, 32, 0.755);
+}
+
+ul.charlotte_ingredients li:nth-child(2n), ol.preparation_of_charlotte li:nth-child(2n) {
+    color: rgba(2, 52, 65, 0.755);
+    text-decoration: underline dotted rgba(2, 52, 65, 0.755);
+}
+
+ul.tiramisu_ingredients li:nth-child(odd), ol.preparation_of_tiramisu li:nth-child(odd) {
+    color: rgba(38, 40, 41, 0.755);
+    text-decoration: underline dashed rgba(38, 40, 41, 0.755);
+}
+
+ul.cookies_ingredients li:nth-child(3n), ol.preparation_of_cookies li:nth-child(3n) {
+    color: rgba(27, 92, 32, 0.755);
+    text-decoration: underline wavy rgba(27, 92, 32, 0.755);
+}
+
+.text_overline {
+    font-size: 13px;
+    text-decoration: 2px overline;
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+
+
